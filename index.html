@@ -6,18 +6,24 @@
     </head>
     <div class="maindiv">
         <h1>Simple Interest Calculator</h1>
+        <form>
+        <div>
+        <label>Amount</label>
+        
+        <input type="number"  id="principal"> 
+        </div>
+        <div>
 
-        Amount 
-        <span class="input">
-        <input type="number"  id="principal">  
-        </span>
-        <br/> Interest Rate 
-        <span class="input">
+        <label>Interest Rate</label>
+        
         <input type="range" id="rate" min="1" max="20" step="0.25" value="10.25" onchange="updateRate()">
         <span id="rate_val">10.25%</span>
-        </span>
-         <br/>No. of Years
-        <span class="input">
+        </div>
+        
+        <div>
+         
+        <label>No. of Years</label>
+
         <select id="years">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -30,10 +36,13 @@
             <option value="9">9</option>
             <option value="10">10</option>
         </select> </span>
-        <br><button onclick="compute()">Compute Interest</button><br/>
-        <span id="result">
+        </div>
+        </form>
+        <button onclick="compute()">Compute Interest</button>
+        <br><span id="result">
             
-        </span><br/>
+        </span>
+       
     </div>
     <body>
         
