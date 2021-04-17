@@ -15,28 +15,29 @@ h1{color:grey;font-family:verdana}
 form {
   display: table;
   margin: 5px 0 0 60px;
-  table-layout: fixed;
+  table-layout: auto;
 }
 
 form div {
   display: table-row;
+  width: 300px;
 }
 
 form label {
-  width: 150px;
+  width: 130px;
   text-align: left;
   padding-right: 2%;
 }
 
-form input {
-  width: 120px;
-  text-align: left;
+form input[type="range"]{
+    width: 12em;
 }
+
 form select{
   width: 35px;
 }
 
-form label, form input , form select{
+form label,form input,form select{
   display: table-cell;
   margin:10px 0;
 }
