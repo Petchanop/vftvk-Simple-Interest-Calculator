@@ -5,7 +5,6 @@ h1{color:grey;font-family:verdana}
     background-color:white;color:black;
     width:500px;padding:20px;
     border-radius:25px;
-    align:center;
 }
 
 /*create highlight class for highlight text in Javascript */
@@ -15,9 +14,8 @@ h1{color:grey;font-family:verdana}
 
 form {
   display: table;
-  padding:10px;
-  margin  : 0;
-  
+  margin: 5px 0 0 60px;
+  table-layout: fixed;
 }
 
 form div {
@@ -27,25 +25,29 @@ form div {
 form label {
   width: 150px;
   text-align: left;
-  margin:10px 0;
+  padding-right: 2%;
 }
 
 form input {
   width: 120px;
-  margin:10px 0;
-  
+  text-align: left;
 }
 form select{
-  width: 30px;
-  margin:10px 0;
-  
+  width: 35px;
 }
 
-form label, form input {
+form label, form input , form select{
   display: table-cell;
   margin:10px 0;
 }
 
+form span{
+    width: 300px;
+    text-align: left;
+    margin: 0 0 5px 0;
+}
+
 .maindiv button{
     width: 140px;
+    margin  : 10px 0 5px 60px;
 }
