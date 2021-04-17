@@ -15,7 +15,8 @@ h1{color:grey;font-family:verdana}
 
 form {
   display: table;
-  padding:20px;
+  padding:10px;
+  margin  : 0;
   
 }
 
@@ -47,5 +48,4 @@ form label, form input {
 
 .maindiv button{
     width: 140px;
-    margin:10px 0;
 }
